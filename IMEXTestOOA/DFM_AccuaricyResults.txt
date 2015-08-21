@@ -1,0 +1,57 @@
+See refs for implementation and details. MD 2014 ;)
+Elapsed time is 0.124201 seconds.
+See refs for implementation and details. MD 2014 ;)
+Elapsed time is 0.090021 seconds.
+See refs for implementation and details. MD 2014 ;)
+Elapsed time is 0.179060 seconds.
+See refs for implementation and details. MD 2014 ;)
+Elapsed time is 0.368481 seconds.
+See refs for implementation and details. MD 2014 ;)
+Elapsed time is 0.774950 seconds.
+See refs for implementation and details. MD 2014 ;)
+Elapsed time is 0.097370 seconds.
+See refs for implementation and details. MD 2014 ;)
+Elapsed time is 0.162276 seconds.
+See refs for implementation and details. MD 2014 ;)
+Elapsed time is 0.330890 seconds.
+See refs for implementation and details. MD 2014 ;)
+Elapsed time is 0.693003 seconds.
+See refs for implementation and details. MD 2014 ;)
+Elapsed time is 1.477214 seconds.
+See refs for implementation and details. MD 2014 ;)
+Elapsed time is 0.746106 seconds.
+See refs for implementation and details. MD 2014 ;)
+Elapsed time is 1.484723 seconds.
+See refs for implementation and details. MD 2014 ;)
+Elapsed time is 3.020744 seconds.
+See refs for implementation and details. MD 2014 ;)
+Elapsed time is 6.415951 seconds.
+See refs for implementation and details. MD 2014 ;)
+Elapsed time is 13.902636 seconds.
+***************************************************************
+ Method 3
+***************************************************************
+ nE 	 L1-Norm 	 Degree 	 Linf-Norm 	 Degree
+ 20 	 9.16e-02 	 0.00 		 2.09e-01 	 0.00 
+ 40 	 3.85e-02 	 1.25 		 8.85e-02 	 1.24 
+ 80 	 9.48e-03 	 2.02 		 3.45e-02 	 1.36 
+160 	 1.92e-03 	 2.30 		 1.12e-02 	 1.62 
+320 	 2.45e-04 	 2.97 		 2.39e-03 	 2.23 
+***************************************************************
+ Method 4
+***************************************************************
+ nE 	 L1-Norm 	 Degree 	 Linf-Norm 	 Degree
+ 20 	 1.46e-03 	 0.00 		 2.50e-03 	 0.00 
+ 40 	 4.54e-05 	 5.01 		 8.73e-05 	 4.84 
+ 80 	 1.42e-06 	 5.00 		 2.80e-06 	 4.96 
+160 	 4.49e-08 	 4.98 		 8.54e-08 	 5.03 
+320 	 1.48e-09 	 4.92 		 2.63e-09 	 5.02 
+***************************************************************
+ Method 5
+***************************************************************
+ nE 	 L1-Norm 	 Degree 	 Linf-Norm 	 Degree
+ 20 	 9.02e-05 	 0.00 		 2.28e-04 	 0.00 
+ 40 	 1.20e-06 	 6.23 		 5.59e-06 	 5.35 
+ 80 	 1.77e-08 	 6.09 		 1.52e-07 	 5.20 
+160 	 2.55e-10 	 6.12 		 3.75e-09 	 5.34 
+320 	 2.54e-12 	 6.65 		 4.23e-11 	 6.47 
