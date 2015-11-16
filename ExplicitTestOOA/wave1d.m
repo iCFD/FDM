@@ -8,7 +8,7 @@
 %              coded by Manuel Diaz, NTU, 2012.12.18
 %                               
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-clear all; close all; clc;
+clear; close all; clc;
 
 %% Parameters
      a = +1.0;  % scalar velocity in x direction

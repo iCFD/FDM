@@ -8,7 +8,7 @@
 %              coded by Manuel Diaz, NTU, 2012.12.18
 %                               
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%clear all; close all; clc;
+clear; close all; clc;
 
 %% Parameters
      u = +1.0;  % scalar velocity in x direction
@@ -44,16 +44,7 @@ for tstep=t
     
     % Update iteration counter
     it=it+1;
-    
-    % plot
-%     subplot(1,2,1); mesh(q); colormap Copper; axis(plotrange);
-%     %colorbar('location','EastOutside'); 
-%     title(['Upwind, dx = ',num2str(dx),', dy = ',num2str(dy),', time: ',num2str(tstep)])
-%     xlabel('x points'); ylabel('y points'); zlabel('q(x,y)');
-%     subplot(1,2,2); contourf(q); colormap Copper; 
-%     title(['Upwind, dx = ',num2str(dx),', dy = ',num2str(dy),', time: ',num2str(tstep)])
-%     xlabel('x points'); ylabel('y points');
-    
+       
     switch method
         case 'fEuler'   % Forward Euler 
             %dF = FDM.WENO5residual2d(q,u,v,dx,dy);
@@ -84,8 +75,17 @@ for tstep=t
         otherwise
             error('method not available');
     end
+    
+	% plot
 %     if(rem(it,10)==0)
-%         drawnow
+%     subplot(1,2,1); mesh(q); colormap Copper; axis(plotrange);
+%     %colorbar('location','EastOutside'); 
+%     title(['Upwind, dx = ',num2str(dx),', dy = ',num2str(dy),', time: ',num2str(tstep)])
+%     xlabel('x points'); ylabel('y points'); zlabel('q(x,y)');
+%     subplot(1,2,2); contourf(q); colormap Copper; 
+%     title(['Upwind, dx = ',num2str(dx),', dy = ',num2str(dy),', time: ',num2str(tstep)])
+%     xlabel('x points'); ylabel('y points'); 
+%       drawnow
 %     end
 end
 toc
